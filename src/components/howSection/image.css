@@ -1,0 +1,21 @@
+.circular-gallery {
+  width: 100%; /* Full width of the container */
+  height: 70vh; /* Adjust height automatically based on content */
+  overflow: visible;
+  margin: auto;
+  cursor: grab;
+}
+
+
+.circular-gallery:active {
+  cursor: grabbing;
+}
+
+.text {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #ffffff; /* Change text color */
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Add space between the image and text */
+  font-weight: bold; /* Make the text bold */
+  line-height: 1.5; /* Adjust line height for better readability */
+}

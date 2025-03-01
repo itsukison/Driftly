@@ -1,0 +1,76 @@
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: left; /* Align text to the left */
+  opacity: 0.9;
+  margin-left: 17vh; /* Add margin to move it further left */
+}
+
+.Step1-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.Step1-image {
+  margin-left: 15%;
+  margin-top: 5vh;
+}
+
+.explanation1 {
+  margin-top: -4vh;
+  margin-left: 10%; /* Add some space between the image and explanation */
+  width: 34%;
+  font-size: 1.5rem;
+}
+
+.Step2-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center;
+  margin-top: 18vh;
+}
+
+.Step2-image {
+  margin-left: 15%;
+  margin-top: 5vh;;
+}
+
+.explanation2 {
+  margin-top: -4vh;
+  margin-left: 15%; /* Add some space between the image and explanation */
+  width: 34%;
+  font-size: 1.5rem;
+  margin-right: 10%;
+}
+
+
+
+.Step3-container {
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+.explanation3 {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items horizontally */
+    margin-top: 4vh; /* Add space above the explanation */
+}
+
+.explanation3 h1 {
+    font-size: 3rem; /* Adjust font size for the heading */
+    margin-left: 16%;
+    width: 40%;
+}
+
+mark {
+  background-color: pink;
+  color: black;
+  padding: 3px 4px;
+}
+
+
+.explanation3 p {
+    font-size: 1.2rem; /* Adjust font size for the paragraph */
+    line-height: 1.5; /* Adjust line height for better readability */
+    max-width: 28%;
+}

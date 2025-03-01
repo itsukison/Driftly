@@ -1,38 +1,25 @@
+body {
+  background-color: black; /* Change background to black */
+  color: white; /* Optional: Change text color to white for better contrast */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
 .App {
-  text-align: center;
+  position: relative; /* Set position relative for absolute positioning of children */
+  overflow: visible; /* Allow overflow of child elements */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container {
+  margin-top: 10vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.how-container {
+  margin-top: 25vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image {
+  width: 100%;
+  margin-top: 27vh;
 }

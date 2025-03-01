@@ -1,0 +1,27 @@
+.stack-container {
+    position: relative;
+    perspective: 600px;
+    width: 100%; /* Ensure the stack container takes full width */
+    height: 100%; /* Ensure the stack container takes full height */
+}
+
+.card-rotate {
+    position: absolute;
+    cursor: grab;
+}
+
+.card {
+    border-radius: 20px; /* Optional: Keep this if you want rounded corners */
+    overflow: visible; /* Ensure content does not overflow */
+    width: 120%; /* Ensure the card takes the full width of its container */
+    height: 120%; /* Ensure the card takes the full height of its container */
+}
+
+.card-image {
+    pointer-events: none;
+    width: 100%; /* Set width to 100% to fill the card */
+    height: 100%; /* Set height to 100% to fill the card */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border: 5px solid #fff; /* Add a border to the image */
+    border-radius: 20px; /* Optional: Keep this if you want rounded corners on the image */
+}
