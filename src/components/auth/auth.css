@@ -1,0 +1,22 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: black;
+}
+
+.auth-container form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.logged-in-message {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
